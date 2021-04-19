@@ -1,0 +1,206 @@
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.header{
+    background:linear-gradient(rgba(31,31,31,0.7)) ,url(../images/header-bg.jpg)center /cover no-repeat fixed;
+}
+.logo{
+    padding-bottom: 50px;
+}
+
+.header-text h1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.header-text p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.header-btns{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited{
+    background: transparent;
+    border-color: #129cf3;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 3px;
+    transition: all 1s ease;
+    
+}
+.btn-download:hover{
+        color: white;
+        background: #129cf3;
+    }
+
+.btn-towr,
+.btn-towr:focus,
+.btn-towr:active,
+.btn-towr:visited{
+    background: transparent;
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 3px;
+    transition: all 1s ease;
+    margin-left: 20px;
+}    
+.btn-towr:hover{
+    color: white;
+    
+}
+.btn-towr i{
+    font-size: 20px;
+    margin-left: 5px;
+    color: #129cf3;
+}
+
+
+
+.header-iphone img{
+    width: 100%;
+}
+
+// about
+.about-title h2{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about-title h2::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: orangered;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -30px;
+}
+
+.fa-box{
+    color: rgb(147, 147, 247);
+}
+
+//testimonins
+.testimonins{
+    background:linear-gradient(rgba(31, 31 ,31, 0.7)) ,url(../images/testimonial-bg.jpg)center/cover no-repeat fixed;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+
+.carousel-indicators{
+    bottom: -10px;
+}
+
+
+.carousel-inner .carousel-item img{
+    border: solid 2px #129cf3;
+    border-radius: 50%;
+    padding: 3px;
+    // display:block;
+}
+
+
+
+// <!-- purches -->
+
+.purches-now{
+    background: #1a1a1a;
+    p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .btn-purch{
+        border: solid 2px #129cf3;
+        border-radius: 10px;
+        color: white;
+        transition: all 1s;
+    }
+    .btn-purch:hover{
+        background-color: #127481;
+        border-color: #316890;
+    }
+}
+
+
+// counter
+
+.counter{
+    background: url(../images/counter-bg.jpg) center/cover fixed no-repeat;
+    min-height: 60vh;
+}
+
+.conter-item i{
+    font-size: 60px;
+    color: #129cf3;
+}
+.conter-item h2{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.conter-item p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+// download
+
+.download-now img{
+    width: 100%;
+}
+
+.available-on{
+    
+    margin-top: -8px;
+}
+
+
+
+// contact
+
+.contact-form #text{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 6px 10px; 
+    font-size: 15px;
+}
+
+
+.footer{
+    background: #1a1a1a;
+    .copy-right{
+        width: 50%;
+        p{
+            font-weight: 600;
+            color: white;
+            font-size: 15px;
+            a{
+                text-decoration: none;
+
+            }
+        }
+    }
+    .angle-right{
+        text-align: right;
+    }
+}
